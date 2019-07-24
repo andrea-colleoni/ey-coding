@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="pagina1.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/vader/jquery-ui.css">
+    </head>
+    <body>
+        <!-- Questo è un commento HTML -->
+        <h1>Esempi di <em>Javascript</em></h1>
+        <p id="paragrafo1">Questo è un paragrafo di testo</p>
+        <input type="text" id="inputTesto">
+        <button onclick="copiaTesto()">Cliccami!</button>
+        <p>
+            ciao <br> io 
+            mi 
+            chiamo 
+            Andrea
+        </p>
+        <input type="text" id="data">
+
+        <script src="oggetti.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+                integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+                crossorigin="anonymous"></script>
+        <!-- <script src="pagina1.js"></script> -->
+        <script>
+            function copiaTesto() {
+                console.log('click');
+                document.getElementById('paragrafo1').innerHTML = 
+                        document.getElementById('inputTesto').value;
+                document.getElementById('inputTesto').value = '';
+            }
+
+            $( "#data" ).datepicker({ minDate: -20, maxDate: "+1M +10D" });
+        </script>
+    </body>
+</html> 

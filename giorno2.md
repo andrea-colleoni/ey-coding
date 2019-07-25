@@ -39,4 +39,6 @@
 - https://en.wikipedia.org/wiki/Software_architecture
 - https://en.wikipedia.org/wiki/Multitier_architecture
 - https://en.wikipedia.org/wiki/Service-oriented_architecture
+- https://it.wikipedia.org/wiki/XML
+- https://it.wikipedia.org/wiki/JavaScript_Object_Notation
 - https://en.wikipedia.org/wiki/Web_API
